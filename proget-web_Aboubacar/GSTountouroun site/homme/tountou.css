@@ -1,0 +1,402 @@
+   /* ===Pour la page d'acceuil=== */
+   header h1 {
+       /*le titre */
+       background-color: rgb(153, 5, 5);
+       text-align: center;
+       border: 1px solid rgb(14, 243, 64);
+       border-radius: 10px;
+       color: rgb(224, 224, 155);
+
+   }
+
+   body {
+       /* Pour le principal background  */
+       background-image: url(../Gst/pencils-5095_256.gif);
+       background-repeat: no-repeat;
+       background-size: 50%;
+       background-position: center;
+       background-attachment: fixed;
+   }
+
+   .listes {
+       /* Pour la listes des rubriques */
+       border: 2px solid rgb(18, 238, 48);
+       list-style: none;
+       padding: 5px;
+       border-radius: 10px;
+       background-color: rgb(153, 6, 14, 0.54);
+       text-decoration: none;
+       min-height: 100px;
+       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+       flex-wrap: nowrap;
+       margin: 3px;
+
+
+   }
+
+   .listes:hover {
+       /* A son survol */
+       color: rgb(230, 21, 21);
+
+
+   }
+
+   .sous-listes {
+       margin: 10px;
+       display: inline-flex;
+       justify-content: space-between;
+       background-color: rgb(233, 214, 185, 0.54);
+       border: 1px solid black;
+       border-radius: 10px;
+       padding: 4px;
+
+   }
+
+   #les-liens {
+       color: rgb(5, 15, 5);
+       text-decoration: none;
+       font-family: sans-serif;
+   }
+
+   #les-liens:hover {
+       background-color: #fff;
+       border-radius: 15px;
+       color: rebeccapurple;
+   }
+
+   .apropos {
+       /* contenu de l'accueil */
+       color: rgb(34, 10, 252);
+       text-decoration: none;
+       border: 1px solid white;
+       border-radius: 10px;
+       padding: 10px;
+
+   }
+
+   .apropos:hover {
+       background-image: url(../Gst/devise\ de\ la.png);
+       background-attachment: fixed;
+       background-repeat: no-repeat;
+       background-position: center;
+       background-size: 30%;
+   }
+
+   #devise {
+       /* l'effort fait les forts  */
+       justify-content: center;
+       display: flex;
+       background-color: rgb(146, 21, 21, .54);
+       color: rgb(12, 12, 2);
+       border-radius: 10px;
+   }
+
+   #devise:hover {
+       background-image: url(../Gst/drapeau1.jpg);
+       border: 2px solid rgb(0, 255, 42);
+       color: rgb(8, 14, 2);
+       border-radius: 10px;
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-position: center;
+
+   }
+
+
+   /* le footer */
+   .call-us {
+       background-color: rgba(83, 78, 78, 0.836);
+       border-radius: 15px;
+       display: flex;
+       justify-content: center;
+       width: 100%;
+       flex-wrap: wrap;
+
+   }
+
+   .pour-ns-contacter {
+       list-style: none;
+       padding: 5px;
+   }
+
+   .pour-ns-contacter:hover {
+       background-color: rgb(206, 26, 35);
+       background-size: auto;
+       border-radius: 100px;
+   }
+
+   #le-tel {
+       float: left;
+       margin: 10px;
+   }
+
+
+
+
+   .call-us h4 {
+       text-align: center;
+       position: static;
+       padding-left: 10px;
+       text-decoration: underline;
+   }
+
+
+   /* ===Concernant la page contacts=== */
+   .nmain {
+       border: 2px solid rgb(34, 178, 77);
+       border-radius: 10px;
+       min-height: 200px;
+       background-color: rgba(177, 11, 25, 0.54);
+       padding: 5px;
+
+   }
+
+   #facel {
+       height: 20px;
+       width: 20px;
+   }
+
+   #logowa {
+       height: 20px;
+       width: 20px;
+   }
+
+   .retour-a-A {
+       display: flex;
+       justify-content: right;
+       border: 2px solid cadetblue;
+       width: 40%;
+       border-radius: 30px;
+       padding: 16px;
+       text-decoration: none;
+
+   }
+
+   .retour-a-A:hover {
+       background-color: black;
+       border-radius: 100%;
+       color: blanchedalmond;
+   }
+
+   .numbers h1 {
+       background-color: rgba(145, 29, 29, 0.938);
+       color: rgb(226, 226, 81);
+       border: 2px solid rgb(77, 226, 134);
+   }
+
+   /* Concernant la galerie */
+   .les-images img {
+       height: 25%;
+       width: 30%;
+       margin: 10px;
+       transform: ;
+       zoom: normal;
+       display: flex;
+       text-align: center;
+       filter: blur(0.5px);
+   }
+
+   .les-images :hover {
+       width: 60%;
+       height: 60%;
+
+   }
+
+   .font-family {
+       font-family: cursive;
+       text-align: center;
+       text-decoration: underline;
+       background-color: rgb(216, 78, 78, 0.54);
+       width: auto;
+       border-radius: 20px;
+   }
+
+   .image-font {
+       background-color: rgb(194, 255, 255, 0.47);
+   }
+
+   /* Concernant le programme académique */
+   .contenant-prog {
+       height: auto;
+       background-image: url(../Gst/drapeau1.jpg);
+       display: flex;
+       gap: 30px;
+       justify-content: space-between;
+       background-size: cover;
+   }
+
+   .rubrique-prog a {
+       color: black;
+       text-decoration: none;
+       font-weight: bold;
+       padding-top: 0px;
+       margin: 5px;
+
+       font-family: 'Times New Roman', Times, serif;
+
+   }
+
+   .rubrique-prog a:hover {
+       background-color: rgb(255, 235, 205, 0.74);
+       border-radius: 15px;
+       color: blue;
+   }
+
+   #regle {
+       float: left;
+   }
+
+   /* Le Primaire Collège Lycée */
+   .cours-primaire {
+       background-color: rgb(235, 97, 97);
+       border: 2px solid rgb(65, 48, 48);
+       display: flex;
+       justify-content: space-between;
+       border-radius: 15px;
+       margin: 10px;
+       flex-wrap: wrap;
+       min-height: 50px;
+       align-content: center;
+   }
+
+   .cours-primaire li {
+       list-style: none;
+   }
+
+   .cours-primaire li a {
+       text-decoration: none;
+       color: black;
+       background-color: coral;
+       border-radius: 15px;
+   }
+
+   .cours-primaire li a:hover {
+       background-color: blueviolet;
+       border-radius: 15px;
+       border: 2px solid white;
+   }
+
+   .presence {
+       background-color: rgb(184, 45, 45, 0.54);
+       border-radius: 15px;
+       padding: 5px;
+   }
+
+   table tr td h3 {
+       display: flex;
+       justify-content: center;
+   }
+
+   table tr td {
+       background-color: rgb(141, 4, 4, 0.54);
+
+   }
+
+   mark {
+       background-color: rgb(243, 105, 181, 0.43);
+       border-radius: 10px;
+       padding: 0px;
+       margin: 10px;
+   }
+
+   .jour {
+       background-color: rgb(253, 216, 161);
+   }
+
+   .primaire-revision {
+       background-color: blueviolet;
+       display: flex;
+       justify-content: center;
+       text-align: center;
+       border-radius: 15px;
+   }
+
+   .les-cours {
+       /* serie litteraire */
+       background-color: rgb(248, 222, 183, 0.54);
+       display: flex;
+       justify-content: center;
+   }
+
+   .cours-lycée {
+       display: flex;
+
+   }
+
+   /*  Admission */
+   .admission-para {
+       border: 2px solid rgba(60, 243, 75, 0.54);
+       background-color: rgba(223, 30, 30, 0.54);
+       padding: 15px;
+       height: auto;
+   }
+
+   .rubrique-ad a {
+       color: black;
+       text-decoration: none;
+   }
+
+   .contenant-ad {
+       height: auto;
+       background-image: url(../Gst/drapeau1.jpg);
+       gap: 30px;
+       background-size: cover;
+       display: flex;
+       justify-content: space-around;
+       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+   }
+
+   .titre {
+       border: 2px solid rgb(60, 167, 60);
+       background-color: rgba(196, 64, 64, 0.767);
+       height: auto;
+       text-align: center;
+   }
+
+   .contener-admi {
+
+       border: 2px solid rgb(65, 173, 65);
+       background-color: rgb(196, 64, 64, 0.55);
+       height: auto;
+       margin: 30px;
+       padding: 10px;
+       position: relative;
+       flex-wrap: wrap;
+       width: auto;
+       border-radius: 15px;
+   }
+
+   .concerner {
+       display: block;
+       text-align: center;
+   }
+
+   form {
+       display: flex;
+       justify-content: center;
+   }
+
+   input {
+       color: rgb(255, 253, 253);
+       background-color: rgba(245, 183, 103, 0.54);
+       border-radius: 30px;
+   }
+
+   input:hover {
+       color: blueviolet;
+       border-radius: 15px;
+   }
+
+   label:hover {
+       background-color: rgb(6, 6, 247, 0.65);
+   }
+
+   #valider {
+       background-color: rgb(105, 7, 7);
+       cursor: pointer;
+   }
+
+   .les-regles {
+       background-color: rgb(207, 78, 78, 0.54);
+   }

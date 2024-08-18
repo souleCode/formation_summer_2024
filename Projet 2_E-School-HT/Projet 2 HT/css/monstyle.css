@@ -1,0 +1,344 @@
+body{
+   font-family: 'Roboto', sans-serif; 
+    background: #d7ded9;
+    padding: 0;
+    margin: 0;
+    color: #333;
+    margin-bottom: 50px;
+}
+
+header{
+background: lightblue;
+color: white;
+padding:  10px 0;
+text-align: center;
+}
+
+header img{
+    width: 50px;
+    height: 50px;
+}
+
+
+nav ul{
+  font-weight: bold;
+  list-style: none;
+  padding: 0;
+  justify-content: center;
+  display: flex;
+}
+
+nav ul li{
+   margin:  0 20px ;
+}
+nav ul li a{
+   color: rgb(22, 22, 22);
+   text-decoration: none;
+}
+nav ul li a:hover{
+    color: rgb(219, 18, 18);
+}
+
+a:hover{
+    color: rgb(239, 19, 19);
+
+}
+h3{
+    color: rgb(203, 30, 30);
+    height: 25px;
+    width: auto;
+    border-radius: 35px;
+    position: relative;
+    background: rgb(119, 191, 215) ;
+    padding: 10px 0;
+    bottom: 5px;
+    
+}
+.image-footer{
+
+    /* display: flex;
+    flex-wrap: wrap; */
+    /* justify-content: center; */
+    
+    margin: 100px;
+    width: 250px;
+    height: 175px;
+    border: 1px solid blue;
+    border-radius:35px;
+    object-fit: cover;
+    padding-top: 500px;
+    margin: 100px 50px 0 50px;
+}
+
+footer{
+    color: rgb(13, 13, 13);
+    background: lightblue;
+    position: fixed;
+    text-align: center;
+    padding: 10px 10px;
+    width: 100%;
+    bottom: 0;
+    margin-top: 50px;
+    margin: 0;
+
+}
+
+
+
+.Grand{
+    color: rgb(203, 30, 30);
+    height: 50px;
+    width: 600px;
+    border-radius: 35px;
+    background: rgb(119, 191, 215);
+    position: relative ;
+    left: 300px;
+    line-height: 1.5;
+}
+.Galerie-titre1{
+    color: rgb(203, 30, 30);
+    height: 60px;
+    width: 600px;
+    border-radius: 35px;
+    background: rgb(119, 191, 215);
+    position: relative ;
+    left: 400px; 
+    text-align: center;
+    line-height: 2;
+}
+.Galerie-titre2{
+    color: rgba(0, 0, 0, 0.775);
+    height: 40px;
+    width: 400px;
+    border-radius: 35px;
+    background: linear-gradient(lightblue, lightyellow);
+    position: relative ;
+    left: 500px; 
+    text-align: center;
+    line-height: 2;
+}
+
+
+
+.Formation{
+    color: rgb(203, 30, 30);
+    height: 50px;
+    width: 600px;
+    border-radius: 35px;
+    background: rgb(119, 191, 215);
+    position: relative ;
+    left: 100px;
+}
+.Petit{
+    color: rgb(0, 1, 1);
+    height: 20px;
+    width: 400px;
+    border-radius: 25px;
+    background: rgb(171, 84, 82);
+    position: relative;
+    left: 400px;
+    text-align: center;
+    padding: 10px 0;
+    bottom: 5px;
+}
+
+main {
+    padding: 20px;
+    height: 800px;
+    width: 1100px;    
+    text-align: center;
+    margin-bottom: 100px;
+    position: relative;
+    left: 100px;
+    font-size: 18px;
+    line-height: 1.5;
+
+}
+.image-container{
+    position: relative;
+
+}
+.image-container img{
+    height: 500px;;
+    width:auto;
+}
+.text-overlay {
+    position: absolute;
+    bottom: 20px; /* Ajuste la distance du bas */
+    left: 50px; /* Ajuste la distance de la droite */
+    background-color: rgba(0, 0, 0, 0.5); /* Fond semi-transparent */
+    padding: 20px;
+    border-radius: 10px;
+
+}
+@font-face {
+    font-family: 'E';
+    src: url('../css/fonts/Righteous-Regular.ttf') format('ttf');
+}
+
+
+.illustration{
+    width: 500px ;
+    height: 300px;
+    float: left;
+    margin: 20px 30px 30px 30px;
+    position: relative;
+ }
+ .illustration-club{
+    width: 510px ;
+    height: 350px;
+    float: left;
+    margin: 20px 30px 30px 30px;
+    position: relative;
+ }
+
+ .Accadémie{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px; 
+    flex-direction: column ;
+    align-items: center;
+    bottom: 5px;
+
+
+
+ }
+ .Filières{
+
+    width: 900px;
+    height: 390px;
+    border: 1px solid blueviolet;
+    border-radius: 20px;
+    background: radial-gradient(lightblue, lightyellow);
+    position: relative;
+    left: 100px;
+
+
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 40px;
+
+    font-style: normal;
+    font-weight: bold;
+ }
+
+.Club{
+
+    width: 1000px;
+    height: 420px;
+    border: 1px solid blueviolet;
+    border-radius: 20px;
+    background: radial-gradient( lightyellow, rgb(178, 240, 196));
+    position: relative;
+    left: 100px;
+
+
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 40px;
+
+    font-style: normal;
+    font-weight: bold;
+ }
+
+ .Cfilières{
+    text-decoration-line: underline;
+    color: rgb(244, 18, 18);
+    font-style: italic;
+    font-size: 25px;
+    font-style: italic;
+    margin-bottom: 8px;
+    
+ }
+.Ecriture{
+    font-size: 16px;
+    line-height: 1.5;
+    padding-bottom: 50px;
+}
+
+
+
+/* inporatant */
+
+
+.social-icons a {
+    color: #333;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 24px;
+  }
+  
+.social-icons a:hover {
+    color: #ff0000;
+  }
+
+
+
+
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    padding-left: 100px;
+    
+}
+
+form label {
+    margin: 5px 0;
+}
+.Inscription{
+    font-size: 20px;
+    text-align: center;
+    color: #333;
+    height: 35px;
+    width: 600px;
+    background: rgb(241, 181, 181);
+    border-radius: 10px;
+    position: relative;
+    padding: 10px 0;
+    bottom: 5px;
+}
+
+form input,textarea, select {
+    margin: 5px 0;
+    padding: 8px;
+    width: 200px;
+    border-radius:10px;
+}
+
+form button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: lightblue
+}
+form fieldset{
+    border-top: #ff0000;
+    border-style: hidden;
+    background:  radial-gradient(rgb(240, 212, 212), lightyellow);
+
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.gallery img {
+    margin: 10px;
+    width: 250px;
+    height: 175px;
+    border: 1px solid blue;
+    border-radius:35px;
+    object-fit: cover;
+}

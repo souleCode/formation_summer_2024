@@ -1,0 +1,336 @@
+*{
+    box-sizing: border-box;
+     font-family:  'Arial Narrow', Arial, sans-serif;
+}
+body{
+    color:white;
+    font-size: 20px;
+   display: flex;
+   flex-direction: column;
+   background-color: #D0D8EA40;
+
+}
+
+.top{
+    flex-grow: 1;
+    
+}
+
+.topbar{
+    width: 100%;
+    display: flex;
+   
+    
+    
+   
+}
+.lien{
+    margin-left: 20px;
+    padding-top: 14px;
+    float: right;
+    
+}
+/* .lien a{
+    padding-left: 150px;
+    
+} */
+.img1{
+    margin-top: 30px;
+   float: left;
+   margin-left: -130px;
+    position: absolute;
+}
+/* .topbar{
+    background-color: bisque;
+
+} */
+.title{
+    position: absolute;
+    clear: both;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+    
+   
+}
+article{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    z-index: 2;
+    top:0 ;
+    border: 2px solid;
+    padding: 10px;
+    box-shadow: 5px 10px #88888849;
+}
+
+
+.entete{
+ 
+    color:white;
+   
+
+}
+
+.entete{
+    font-size: 40px;
+    animation: slidedown 1.5s ;
+}
+.entete span{
+    display: block;
+    width: 100px;
+    height: 4px;
+    background-color:#BA5FA1 ;
+
+}
+.topbar{
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-image: linear-gradient(to bottom ,rgba(0, 0, 0, 0.675),rgba(0, 0, 0, 0.168)) ,url(../images/1.jpg);
+    background-repeat: no-repeat;
+    background-attachment:local,fixed;
+    height: 800px;
+  
+    
+}
+.div{
+    position: fixed;
+    margin-top: -2px;
+  
+
+}
+.nav{
+    position: fixed;
+    margin-top: -30px;
+   
+   
+}
+.nav a{
+    color: gray;
+    text-decoration: none;
+    padding-left: 150px;
+}
+
+.a1{
+    color: #cb51ab;
+}
+.a1:hover{
+    color: yellow;
+}
+.nav a:hover{
+    color:#3F3BBD ;
+}
+/* .img1{
+    z-index: 2;
+} */
+/* .image{
+    width: 100%;
+    background-size: cover;
+    background-image: url(/images/etudiantsjpg.jpg);
+    background-repeat: no-repeat;
+    height: 400px;
+} */
+
+.sousdiv{
+    animation: slide 1.5s;
+}
+
+@keyframes slidedown{
+    from{
+        transform: translatex(400px);
+        opacity: 0;
+    }
+    to{
+        transform: translatex(0);
+        opacity: 1;
+    }
+}
+@keyframes slide{
+    from{
+        transform: translatex(-400px);
+        opacity: 0;
+    }
+    to{
+        transform: translatex(0);
+        opacity: 1;
+    }
+}
+.section{
+    float: left;
+    width: 100%;
+    height: 200px;
+    clear: both;
+    /* margin-top: -400px; */
+    margin: 30px 20px;
+    
+}
+.section main, .section h1{
+    color: black;
+}
+table td{
+    color: black;
+    padding: 0px 30px;
+    font-size: 25px;
+}
+.section h1{
+    font-size:40px ;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.t1 td{
+padding: 0px 30px;
+}
+.t1{
+    padding-top: 40px;
+}
+table#tr i{
+    color: gray;
+}
+.section main{
+    margin: 100px 0;
+    padding-left: 30px;
+    padding-top: 30px;
+    /* width: 100%; */
+    height: 600px;
+    background-image: url(../images/pexels-photo-7944064.webp);
+    background-position: center;
+    background-size: cover;
+    margin-left: -30px;
+    
+    
+
+}
+.section main h1{
+    font-size: 30px;
+}
+
+/* ca m a permis de mettre le footer que j avais de mal a mettre en bas de la page  */
+ body{
+    
+   
+    min-height:477vh;
+ 
+ }
+footer{
+    height: 450px;
+    background-color: #141c2f9d;
+    background-position: cover;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    border-radius: 5px;
+    
+   
+}
+footer div{
+    width: 42%;
+   margin-left: 6px;
+}
+/* footer div:first{
+    margin-left: 15px;
+    width: 40%;
+    padding-left: 10px;
+    
+}
+footer .iv{
+    width: 32%;
+} */
+footer div div{
+    line-height: 30px;
+}
+footer div div a{
+    color: white;
+    text-decoration: none;
+}
+footer div div a:hover{
+    color: #383C9A;
+}
+ .class{
+    text-decoration: none;
+    margin-bottom: 25px;
+    padding: 30px;
+    width: 100%;
+    height: 100px;
+    /* background-color: #BA5FA1; */
+    display: flex;
+    flex-direction: row;
+    box-shadow: 5px 10px #88888849;
+    
+}
+.class span .span{
+   padding:  20px;
+   bottom: -16px;
+   text-decoration: none;
+
+}
+.class span .im{
+    margin-top: -20px;
+}
+.class span .span:hover{
+    text-decoration: underline;
+}
+/* styles.css */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    
+}
+
+nav ul li {
+    position: relative;
+    display: inline-block;
+}
+
+nav ul li a {
+    display: block;
+    padding: 0px 10px;
+    color: white;
+    text-decoration: none;
+    
+}
+
+nav ul li ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 50px;
+    width: 280px;
+    background-color: white;
+    padding: 0 10px;
+    box-shadow: 0 1px 2px #ccc;
+    box-shadow: 5px 5px #88888849;
+    border-radius: 5px;
+    
+}
+nav ul .u::after{
+    content:"▼" ;
+    font-size: 12px;
+    padding-left: 5px;
+
+}
+
+
+nav ul li:hover ul {
+    display: block;
+}
+
+nav ul li ul li {
+    display: block;
+    float: left;
+   margin-left: -100px;
+    position: relative;
+   
+   
+}
+
+nav ul li ul li a {
+    padding: 10px;
+    font-size: 16px;
+    
+}
+nav ul li ul li a:hover{
+    color: yellow;
+}

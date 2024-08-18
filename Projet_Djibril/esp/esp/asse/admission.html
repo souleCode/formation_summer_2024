@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire de Candidature</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="icon" type="image/vnd.icon" href="../images/logo_ucad_bleu.webp">
+</head>
+<body>
+    <h2>BIENVENUE DANS LA PLATEFORME DE CANDIDARURE DE L'ECOLE SUPERIEURE POLYTECHNIQUE</h2>
+    <div class="container mt-5">
+        <h2>Formulaire de Candidature</h2>
+        <form>
+            <div class="form-group">
+                <label for="nom">Nom</label>
+                <input type="text" class="form-control" id="nom" placeholder="Entrez votre nom" required>
+            </div>
+            <div class="form-group">
+                <label for="prenom">Prénom</label>
+                <input type="text" class="form-control" id="prenom" placeholder="Entrez votre prénom" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" id="email" placeholder="Entrez votre email" required>
+            </div>
+            <div class="form-group">
+                <label for="telephone">Téléphone</label>
+                <input type="tel" class="form-control" id="telephone" placeholder="Entrez votre numéro de téléphone" required>
+            </div>
+            <div class="form-group">
+                <label for="adresse">Adresse</label>
+                <input type="text" class="form-control" id="adresse" placeholder="Entrez votre adresse" required>
+            </div>
+            <div class="form-group">
+                <label for="filiere">Filière (NB: vous avez le droit de choisir une seule filiere, nous  vous contacterons  une fois vos dossiers consultés) </label>
+                <div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="filiere" id="genieMecanique" value="genieMecanique"required>
+                        <label class="form-check-label" for="genieMecanique">Génie Mécanique</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="filiere" id="genieChimique" value="genieChimique">
+                        <label class="form-check-label" for="genieChimique">Génie Chimique</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="filiere" id="genieCivil" value="genieCivil">
+                        <label class="form-check-label" for="genieCivil">Génie Civil</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="filiere" id="genieInformatique" value="genieInformatique">
+                        <label class="form-check-label" for="genieInformatique">Génie Informatique</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="cv">DIPLOME BAC</label>
+                <input type="file" class="form-control-file" id="cv" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Soumettre</button>
+        </form>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
